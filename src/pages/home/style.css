@@ -1,0 +1,42 @@
+.home-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    color: #FFFFFF;
+    background-image: url('../../assets/bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-content-container {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.home-content-container h1 {
+    font-size: 2.5rem;
+}
+
+.home-content-container p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-page {
+        padding: 2rem;
+        background-image: none;
+    }
+    
+    .home-content-container {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+}

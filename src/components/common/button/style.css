@@ -1,0 +1,15 @@
+.ui-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #000E9C;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.ui-button:hover {
+    transition: .4s;
+    transform: scale(1.1);
+}
